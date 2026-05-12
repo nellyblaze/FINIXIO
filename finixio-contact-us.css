@@ -1,0 +1,694 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+/* NAVIGATION PAGE */
+#finixio-navpage {
+    background-color: #071850;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    gap: 40%;
+    padding-right: 2rem;
+    width: 100%;
+    justify-content: center;
+    /* margin: -8px 0; */
+    padding-top: 1.5rem;
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 0.5rem;
+}
+
+.finixio-img {
+    padding-top: 5px;
+}
+
+.listed-nav {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 1.2rem;
+}
+
+.vertical {
+    flex-direction: column;
+    margin-left: -8rem;
+}
+
+.btn-decor {
+    text-decoration: none;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.join-btn {
+    border: 1px solid white;
+    padding: 0.8rem 1.3rem;
+    border-radius: 30px;
+    /* margin-top: 4rem; */
+}
+
+.join-btn:hover {
+    color: #E60D64;
+    border: 1px solid #E60D64;
+}
+
+.fa-3x {
+    color: white;
+}
+
+.show-more {
+    font-size: 18px;
+    border: 2px solid #2346C1;
+    border-radius: 40px;
+    width: 6rem;
+    margin: auto;
+    padding: 1rem;
+    background-color: #2346C1;
+    color: white;
+    text-decoration: none;
+}
+
+.show-more:hover {
+    background-color: white;
+    color: #2346C1;
+}
+
+@media (min-width: 1024px) {
+    /*                                 FIRST PAGE                        */
+
+    #first-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/09/home-banner-v1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 7rem 0 5rem;
+        /* margin: 0 -8px 0 -8px; */
+        text-align: center;
+
+    }
+
+    .first-page-div {
+        color: white;
+        font-family: Nunito, sans-serif;
+    }
+
+    .leading-heading {
+        font-size: 3.5rem;
+
+    }
+
+    /*                            SECOND PAGE                          */
+    #second-page {
+        font-family: "Nunito", sans-serif;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        /* gap: 2rem; */
+    }
+
+    .second-page-div1 {
+        width: 40%;
+    }
+
+    .second-page-div2 {
+        width: 40%;
+    }
+
+    .second-page-heading {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #05123E;
+        width: 80%;
+        padding: 0.3rem 0;
+        font-weight: 800;
+        font-size: 2.2rem;
+    }
+
+    .second-page-para {
+        line-height: 2;
+        margin-left: 1rem;
+    }
+
+    .para-one {
+        color: #677FDC;
+        width: 80%;
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 1rem;
+
+    }
+
+    .second-page-second-div {
+        margin-bottom: 3rem;
+    }
+
+    .second-page-index {
+        /* margin-bottom: 0.3rem; */
+        color: #677FDC;
+    }
+
+    .input-one {
+        height: 3rem;
+        width: 92%;
+        font-size: 1rem;
+        color: #677FDC;
+        border: 1px solid #677FDC;
+        margin: 1rem 0;
+        padding: 0 10px;
+    }
+
+    .input-one:focus {
+        border: 1px solid #677FDC;
+        outline: 1px solid #677FDC;
+    }
+
+    /* .input-one:active { 
+        border: 3px solid #677FDC;
+    }*/
+
+    .one {
+        width: 92%;
+        height: 7rem;
+        padding: 10px;
+        font-size: 1rem;
+        color: #677FDC;
+        border: 1px solid #677FDC;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+    }
+
+    .one:focus {
+        border: 1px solid #677FDC;
+        outline: 1px solid #677FDC;
+    }
+
+
+    .second-page-one {
+        margin-left: 1rem;
+        padding: 4px 0;
+
+    }
+
+    /* .img-span{
+        display: inline;
+    }
+    .span-aid{
+        display: inline;
+    } */
+
+
+    /*                             FINAL PAGE                           */
+    #final-page {
+        background-image: url("https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg");
+        padding-top: 8rem;
+        margin: 0 0 -8px 0;
+        font-family: "Nunito", sans-serif;
+    }
+
+
+    #footer-section {
+        width: 75%;
+        /* margin: auto; */
+        /* margin-left: -1rem; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        justify-self: center;
+        margin-bottom: 5rem;
+        ;
+    }
+
+    .footer-first {
+        color: white;
+    }
+
+    .footer-logo-icon {
+        margin-top: 1rem;
+    }
+
+    .footer-para {
+        line-height: 1.7;
+    }
+
+    .ref-class {
+        color: white;
+    }
+
+    .ref-class:hover {
+        color: #ff1493;
+    }
+
+    .connect-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 60px);
+        gap: 6px;
+    }
+
+    .connect-a-footer {
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 5px;
+        background-color: #0D2162;
+    }
+
+    .connect-a-footer:hover {
+
+        box-shadow: 0 2px 2px 0 #AEB4C6;
+    }
+
+    #footer-second {
+        background-color: #05123E;
+        /* padding-left: 14rem; */
+
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: white;
+    }
+
+    .footer-second-second {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        gap: 30%;
+
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    /*                                 FIRST PAGE                        */
+
+    #first-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/09/home-banner-v1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 7rem 0 5rem;
+        /* margin: 0 -8px 0 -8px; */
+        text-align: center;
+
+    }
+
+    .first-page-div {
+        color: white;
+        font-family: Nunito, sans-serif;
+    }
+
+    .leading-heading {
+        font-size: 2rem;
+
+    }
+
+    /*                            SECOND PAGE                          */
+    #second-page {
+        font-family: "Nunito", sans-serif;
+        /* display: flex; */
+        /* justify-content: center; */
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        /* gap: 2rem; */
+    }
+
+    .second-page-div1 {
+        width: 95%;
+        margin: auto;
+    }
+
+    .second-page-div2 {
+        width: 95%;
+        margin: auto;
+    }
+
+    .second-page-heading {
+        /* margin-left: 1rem; */
+        color: #05123E;
+        width: 95%;
+        margin: 2rem auto;
+        padding: 0.3rem 0;
+        /* font-weight: 800; */
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .second-page-para {
+        line-height: 1.8;
+        /* margin-left: 1rem; */
+    }
+
+    .para-one {
+        color: #677FDC;
+        width: 95%;
+        display: flex;
+        /* margin: 0 auto 1rem; */
+        /* margin-bottom: 1rem; */
+
+    }
+
+    .span-aid {
+        margin-left: 0.8rem;
+    }
+
+    .second-page-second-div {
+        margin-bottom: 3rem;
+    }
+
+    .second-page-index {
+        /* margin-bottom: 0.3rem; */
+        color: #677FDC;
+    }
+
+    .input-one {
+        height: 3rem;
+        width: 92%;
+        font-size: 1rem;
+        color: #677FDC;
+        border: 1px solid #677FDC;
+        margin: 1rem 0;
+        padding: 0 10px;
+    }
+
+    .input-one:focus {
+        border: 1px solid #677FDC;
+        outline: 1px solid #677FDC;
+    }
+
+    /* .input-one:active { 
+        border: 3px solid #677FDC;
+    }*/
+
+    .one {
+        width: 92%;
+        height: 7rem;
+        padding: 10px;
+        font-size: 1rem;
+        color: #677FDC;
+        border: 1px solid #677FDC;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+    }
+
+    .one:focus {
+        border: 1px solid #677FDC;
+        outline: 1px solid #677FDC;
+    }
+
+
+    .second-page-one {
+        margin-left: 1rem;
+        padding: 4px 0;
+
+    }
+
+    /*                             FINAL PAGE                           */
+    #final-page {
+        background-image: url("https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg");
+        padding-top: 4rem;
+        margin: 0 0 -8px 0;
+        font-family: "Nunito", sans-serif;
+    }
+
+
+    #footer-section {
+        width: 85%;
+        margin: auto;
+        /* margin-left: -1rem; */
+        /* display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        justify-self: center; */
+        margin-bottom: 5rem;
+        ;
+    }
+
+    .footer-first {
+        color: white;
+    }
+
+    .emergency-spacing {
+        margin-bottom: 2rem;
+    }
+
+    .footer-logo-icon {
+        margin-top: 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .footer-para {
+        margin: 1.5rem 0;
+        line-height: 1.7;
+    }
+
+    .ref-class {
+        color: white;
+
+    }
+
+    .ref-class:hover {
+        color: #ff1493;
+    }
+
+    .connect-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 50px);
+        gap: 6px;
+    }
+
+    .connect-a-footer {
+        text-align: center;
+        padding: 9px 0;
+        border-radius: 5px;
+        background-color: #0D2162;
+    }
+
+    .connect-a-footer:hover {
+
+        box-shadow: 0 2px 2px 0 #AEB4C6;
+    }
+
+    #footer-second {
+
+        background-color: #05123E;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: white;
+
+    }
+
+    .footer-second-second {
+        width: 90%;
+        margin: auto;
+        line-height: 2rem;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1023px) {
+    /*                                 FIRST PAGE                        */
+
+    #first-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/09/home-banner-v1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 9rem 0 5rem;
+        /* margin: 0 -8px 0 -8px; */
+        text-align: center;
+
+    }
+
+    .first-page-div {
+        color: white;
+        font-family: Nunito, sans-serif;
+    }
+
+    .leading-heading {
+        font-size: 3rem;
+
+    }
+
+    /*                            SECOND PAGE                          */
+    #second-page {
+        font-family: "Nunito", sans-serif;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        /* gap: 2rem; */
+    }
+
+    .second-page-div1 {
+        width: 47%;
+    }
+
+    .second-page-div2 {
+        width: 47%;
+    }
+
+    .second-page-heading {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: #05123E;
+        width: 87%;
+        padding: 0.3rem 0;
+        font-weight: 800;
+        font-size: 1.9rem;
+    }
+
+    .second-page-para {
+        line-height: 2;
+        margin-left: 1rem;
+    }
+
+    .para-one {
+        color: #677FDC;
+        width: 87%;
+        margin-bottom: 1rem;
+        display: flex;
+        gap: 1rem;
+
+    }
+
+    .second-page-second-div {
+        margin-bottom: 3rem;
+    }
+
+    .second-page-index {
+        /* margin-bottom: 0.3rem; */
+        color: #677FDC;
+    }
+
+    .input-one {
+        height: 3rem;
+        width: 92%;
+        font-size: 1rem;
+        color: #677FDC;
+        border: 1px solid #677FDC;
+        margin: 1rem 0;
+        padding: 0 10px;
+    }
+
+    .input-one:focus {
+        border: 1px solid #677FDC;
+        outline: 1px solid #677FDC;
+    }
+
+    /* .input-one:active { 
+        border: 3px solid #677FDC;
+    }*/
+
+    .one {
+        width: 92%;
+        height: 7rem;
+        padding: 10px;
+        font-size: 1rem;
+        color: #677FDC;
+        border: 1px solid #677FDC;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+    }
+
+    .one:focus {
+        border: 1px solid #677FDC;
+        outline: 1px solid #677FDC;
+    }
+
+
+    .second-page-one {
+        margin-left: 1rem;
+        padding: 4px 0;
+
+    }
+
+    /* .img-span{
+        display: inline;
+    }
+    .span-aid{
+        display: inline;
+    } */
+
+
+    /*                             FINAL PAGE                           */
+    #final-page {
+        background-image: url("https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg");
+        padding-top: 8rem;
+        margin: 0 0 -8px 0;
+        font-family: "Nunito", sans-serif;
+    }
+
+
+    #footer-section {
+        width: 95%;
+        /* margin: auto; */
+        /* margin-left: -1rem; */
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr 1fr 1fr;
+        gap: 30px;
+        justify-self: center;
+        margin-bottom: 5rem;
+        ;
+    }
+
+    .footer-first {
+        color: white;
+    }
+
+    .footer-logo-icon {
+        margin-top: 1rem;
+    }
+
+    .footer-para {
+        line-height: 1.7;
+    }
+
+    .ref-class {
+        color: white;
+    }
+
+    .ref-class:hover {
+        color: #ff1493;
+    }
+
+    .connect-footer {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(4, 40px);
+        gap: 6px;
+    }
+
+    .connect-a-footer {
+        text-align: center;
+        padding: 12px 0;
+        border-radius: 5px;
+        background-color: #0D2162;
+    }
+
+    .connect-a-footer:hover {
+
+        box-shadow: 0 2px 2px 0 #AEB4C6;
+    }
+
+    #footer-second {
+        background-color: #05123E;
+        /* padding-left: 14rem; */
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: white;
+    }
+
+    .footer-second-second {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        gap: 10%;
+
+    }
+}

@@ -1,0 +1,1658 @@
+/* FIRST SECTION NAVBAR */
+.finixio-nav {
+    max-width: 100%;
+    background-color: rgb(10, 10, 80);
+    height: 4rem;
+    padding: 0.7rem 0;
+
+}
+
+.finixio-nav-nav {
+    background-color: rgb(10, 10, 80);
+}
+
+.finixio-logo {
+    margin-left: 2rem;
+}
+
+
+.nav-link {
+    color: white;
+    margin: 0 1rem;
+}
+
+.navigation-link {
+    padding-top: 1.5rem;
+}
+
+.navbar-toggler-icon-img {
+    filter: invert(1) saturate(0) brightness(300%);
+
+}
+
+.nav-link-button {
+    height: 3rem;
+    width: 8rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    border: 3px solid #ff1493;
+    color: #ff1493;
+    background-color: rgb(10, 10, 80);
+}
+
+@media(max-width: 991px) {
+
+    /* ---------------SMALL DEVICES------------- */
+    .finixio-nav {
+        padding-right: 2rem;
+    }
+
+    .finixio-nav {
+        position: fixed;
+        z-index: 10;
+    }
+
+    /*-------------------------------------------SECOND SECTION FIRST PAGE SECTION-------------------------------------*/
+
+    #first-page {
+        text-align: center;
+        padding-top: 6rem;
+        padding-bottom: 5rem;
+        background-image: url(https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg);
+        color: white;
+        height: 47rem;
+        overflow: hidden;
+    }
+
+    p {
+        margin-bottom: 27px;
+        line-height: 2;
+    }
+
+    .first-page-heading {
+        font-size: 3.4rem;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .first-page-div {
+        margin-bottom: 3rem;
+    }
+
+    .explore-button {
+        margin-top: 2rem;
+        height: 4rem;
+        width: 10rem;
+        border-radius: 30px;
+        font-size: 1.2rem;
+
+        color: white;
+        background-color: #ff1493;
+    }
+
+    .world-img-div {
+        margin: auto;
+        width: 450px;
+        position: relative;
+    }
+
+    .work-together-globe {
+
+        width: 450px;
+        filter: invert(100%) hue-rotate(200deg) saturate(190%) brightness(140%);
+    }
+
+    .img-one {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-one-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 48px;
+        left: 78px;
+
+    }
+
+    .img-two-div {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 40px;
+        left: 290px;
+    }
+
+    .img-two {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-three-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 70px;
+        bottom: 120px;
+    }
+
+    .img-five-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 300px;
+        bottom: 150px;
+    }
+
+    .img-six-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        bottom: 15px;
+        left: 250px;
+    }
+
+    .img-four {
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    .img-four-div {
+        background-color: white;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 90px;
+        left: 170px;
+    }
+
+    /*--------------------------------------THIRD SECTION FIRST PAGE SECTION---------------------------------------------- */
+
+    #second-page {
+        padding-left: 2rem;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+        background-color: white;
+    }
+
+    .why-work-main-div {
+        text-align: center;
+    }
+
+    .why-work-img {
+        display: none;
+    }
+
+    .backup-img {
+        width: 219px;
+        height: 314px;
+        background-image: url(https://finixio.com/wp-content/uploads/2021/03/why-work-finixio-img.png);
+        margin: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .why-work-img-two {
+        display: none;
+    }
+
+    .backup-img-two {
+        width: 320px;
+        height: 314px;
+        background-image: url(https://finixio.com/wp-content/uploads/2021/03/personal-growth-img.png);
+        margin: 2rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .why-work-para {
+        /* width: 542px; */
+        padding-right: 1rem;
+        margin-bottom: 15px;
+        text-align: left;
+
+    }
+
+    .blue-color {
+        color: #49557B;
+    }
+
+    .para-one {
+        margin-bottom: -3px;
+        font-weight: 500;
+    }
+
+    .heading-one {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        align-items: center;
+        color: #05123E;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    /* .why-work-di{
+        order: 2;
+    }*/
+    .why-work-heading {
+        margin-top: 2rem;
+    }
+
+    .why-work-img-three {
+        display: none;
+    }
+
+    .backup-img-three {
+        width: 320px;
+        height: 370px;
+        background-image: url(https://finixio.com/wp-content/uploads/2021/12/company-perk-img.png);
+        margin: 2rem auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    /*--------------------------------------FOURTH SECTION FIRST PAGE SECTION---------------------------------------------- */
+
+
+    #third-page {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .what-we-main-div {
+        margin-bottom: 3rem;
+    }
+
+    .what-we-para {
+        color: #2346C1;
+    }
+
+    .what-we-heading {
+        color: #1D2950;
+        font-weight: 630;
+        font-size: 2.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .working-class-heading {
+        color: #05123E;
+        font-weight: 600;
+        margin: 1.5rem 0.5rem 1rem 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .h-one {
+        margin-top: 7px;
+    }
+
+    .h-two {
+        margin-top: 20px;
+    }
+
+    .working-class-para {
+        margin: 0 0.5rem 0.5rem 0.5rem;
+        padding: 0 3px;
+        color: #49557B;
+    }
+
+    /*--------------------------------------FIFTH SECTION FIRST PAGE SECTION---------------------------------------------- */
+    #fourth-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg);
+        padding: 7rem 2rem;
+    }
+    
+    .almost-para-img-div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .para-swap-one {
+        order: 2;
+    }
+
+    .para-swap-two {
+        order: 1;
+    }
+
+    .apostrophe-class {
+        filter: invert(87%) sepia(100%) saturate(500%) hue-rotate(10deg) brightness(500%);
+        width: 3.3rem;
+    }
+
+    .almost-para-div {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: white;
+        /* width: 500px; */
+        margin: 0 auto;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    .almost-img-div {
+        width: 250px;
+        border-radius: 50%;
+    }
+
+
+    .face-class {
+        position: relative;
+        text-align: center;
+        width: 250px;
+        margin: auto;
+    }
+
+
+    .face-class-apostrophe {
+        width: 50px;
+        height: 50px;
+        background-color: #fcb900;
+        padding: 10px 9px 0 10px;
+        border-radius: 5%;
+        position: absolute;
+        right: 1px;
+        top: 10px;
+    }
+
+
+    /*--------------------------------------SIXTH SECTION FIRST PAGE SECTION---------------------------------------------- */
+    #fifth-page {
+        margin: 4rem 2rem;
+        text-align: center;
+    }
+
+    .fifth-heading {
+        color: #05123E;
+        padding: 0.8rem;
+        margin-bottom: 2.5rem
+    }
+
+    .sub-class-input {
+        position: relative;
+        flex: 1.5;
+        margin-bottom: 2rem;
+    }
+
+    .input-class-div {
+        margin: auto;
+        border-radius: 7px;
+        padding: 0 2rem;
+    }
+
+    .input-class {
+        padding: 8px 30px;
+        max-width: 900px;
+        width: 100%;
+
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 40px;
+        top: 10px;
+
+    }
+
+    .fash-search {
+        color: black;
+    }
+
+    .enter-key-icon {
+        position: absolute;
+        right: 40px;
+        top: -3px;
+    }
+
+    .find-jobs-div {
+        /* justify-content: center; */
+        display: flex;
+        flex: 1;
+        gap: 1rem;
+        margin-left: 20px;
+    }
+
+    .jobs-buttons-one {
+        padding-left: 20px;
+        width: 105px;
+        height: 54px;
+        border-radius: 30px;
+        background-color: white;
+        color: #2346C1;
+        border: 3px solid #2346C1;
+    }
+
+    .jobs-buttons {
+        width: 165px;
+        height: 54px;
+        border-radius: 30px;
+        background-color: white;
+        color: #2346C1;
+        border: 3px solid #2346C1;
+        padding-left: 15px;
+    }
+
+    .advanced-div-one {
+        position: relative;
+    }
+
+    .advanced-logo-one {
+        position: absolute;
+        top: 15px;
+        left: 12px;
+        color: #2346C1;
+
+    }
+
+    .advanced-div {
+        position: relative;
+    }
+
+    .advanced-btn {
+        position: absolute;
+    }
+
+    .advanced-logo {
+        position: absolute;
+        top: 16px;
+        left: 10px;
+        color: #2346C1;
+
+    }
+
+    .jobs-buttons-one:hover {
+        background-color: #2346C1;
+        color: white;
+    }
+
+    .jobs-buttons:hover {
+        background-color: #2346C1;
+        color: white;
+    }
+
+    .button-span {
+        font-weight: 400;
+    }
+
+    .explore-button-two {
+        margin-top: 6rem
+    }
+
+    /******************* FINAL SECTION OF THE PAGE ************************/
+    #final-page {
+        background-image: url("https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg");
+        padding-top: 4rem;
+    }
+
+    #footer-section {
+        display: grid;
+        grid-template-rows: repeat(4, 50.5px);
+        gap: 50px;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .backup-logo {
+        text-align: center;
+    }
+
+    .footer-logo-icon {
+        display: none;
+    }
+
+    .footer-first {
+        color: white;
+    }
+
+    .ref-class {
+        color: white;
+    }
+
+    .ref-class:hover {
+        color: #ff1493;
+    }
+
+    .footer-first-para {
+        margin-top: -40px;
+    }
+
+    .connect-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 60px);
+        gap: 3px;
+    }
+
+    .connect-a-footer {
+        width: 50px;
+        height: 50px;
+        padding: 10px 15px;
+        border-radius: 5%;
+        background-color: #0D2162;
+    }
+
+    #footer-second {
+        background-color: #05123E;
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: white;
+        gap: 5px;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    /* ------------BIG LAPTOP SCREEN DISPLAY------------ */
+    .finixio-nav-nav {
+        padding-left: 12rem;
+    }
+
+    .finixio-nav-item {
+        position: absolute;
+        right: 15rem;
+    }
+
+    .finixio-nav {
+        position: fixed;
+        z-index: 10;
+    }
+
+    #finixio-index-one {
+        z-index: 5;
+    }
+
+
+
+    /*-----------------------------------------SECOND SECTION FIRST PAGE SECTION----------------------------------------------*/
+
+    #first-page {
+        padding-left: 14rem;
+        padding-top: 8rem;
+        padding-bottom: 5rem;
+        display: flex;
+        background-image: url(https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg);
+        color: white;
+    }
+
+    p {
+        margin-bottom: 27px;
+        line-height: 2;
+    }
+
+    .first-page-heading {
+        font-size: 3.4rem;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .first-page-para {
+        width: 450px;
+    }
+
+    .explore-button {
+        margin-top: 3rem;
+        height: 4rem;
+        width: 10rem;
+        border-radius: 30px;
+        font-size: 1.2rem;
+        color: white;
+        background-color: #ff1493;
+    }
+
+    .work-together-img-div {
+        margin: 0 10rem;
+    }
+
+    .world-img-div {
+        position: relative;
+        width: 300px;
+    }
+
+    .work-together-globe {
+        width: 450px;
+        filter: invert(100%) hue-rotate(200deg) saturate(190%) brightness(140%);
+    }
+
+    .img-one-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 48px;
+        left: 98px;
+
+    }
+
+    .img-one {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-two-div {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 40px;
+        left: 310px;
+    }
+
+    .img-two {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-three-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 70px;
+        bottom: 120px;
+    }
+
+    .img-four {
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    .img-four-div {
+        background-color: white;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 130px;
+        left: 200px;
+    }
+
+    .img-five-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 370px;
+        bottom: 120px;
+    }
+
+    .img-six-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        bottom: 15px;
+        left: 250px;
+    }
+
+    /*--------------------------------------THIRD SECTION FIRST PAGE SECTION---------------------------------------------- */
+    #second-page {
+        padding-left: 12rem;
+        padding-top: 8rem;
+        background-color: white;
+    }
+
+    .why-work-main-div {
+        display: flex;
+        margin-bottom: 4rem;
+    }
+
+    /* .why-work-img-div{
+
+    } */
+    .why-work-img {
+        width: 518px;
+        height: 520px;
+        padding: 0 0.3rem;
+        margin-right: 1.8rem;
+    }
+
+    .why-work-div {
+        width: 621px;
+        justify-items: right;
+    }
+
+    .why-work-heading {
+        width: 542px;
+    }
+
+    .why-work-para {
+        width: 542px;
+        padding-right: 1rem;
+        margin-bottom: 15px;
+
+    }
+
+    .blue-color {
+        color: #49557B;
+    }
+
+    .para-one {
+        margin-bottom: -3px;
+        font-weight: 500;
+    }
+
+    .heading-one {
+        /* height: 116px; */
+        padding-right: 230px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        align-items: center;
+        color: #05123E;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .why-work-img-two {
+        width: 518px;
+        height: 400px;
+        padding: 0 0.3rem;
+        margin-right: 1.8rem;
+    }
+
+    .why-work-img-three {
+        width: 508px;
+        height: 617px;
+        padding: 0 0.3rem;
+        margin-right: 1.8rem;
+    }
+
+
+    /*--------------------------------------FOURTH SECTION FIRST PAGE SECTION---------------------------------------------- */
+    #third-page {
+        /* padding-left: 14rem;
+        padding-right: 14rem; */
+        margin: auto;
+        width: 1130px;
+        margin-top: 3rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    .what-we-main-div {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #05123E;
+    }
+
+    .what-we-heading {
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .working-class {
+        display: flex;
+    }
+
+    .working-class-heading {
+        color: #05123E;
+        font-weight: 480;
+        margin: 1.5rem 0.5rem 1rem 0.5rem;
+        font-size: 1.6rem;
+    }
+
+    .h-one {
+        margin-top: 7px;
+    }
+
+    .h-two {
+        margin-top: 20px;
+    }
+
+    .working-class-para {
+        margin: 0 0.5rem 0.5rem 0.5rem;
+        padding: 0 3px;
+        color: #49557B;
+    }
+
+
+    /*--------------------------------------FIFTH SECTION FIRST PAGE SECTION---------------------------------------------- */
+    #fourth-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg);
+        padding: 7rem 0;
+    }
+
+    .fourth-page-div {
+        width: 1028px;
+        /* height: 646px; */
+        margin: auto;
+
+    }
+
+    .almost-para-img-div {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    .apostrophe-class {
+        filter: invert(87%) sepia(100%) saturate(500%) hue-rotate(10deg) brightness(500%);
+        width: 3.3rem;
+    }
+
+    .almost-para-div {
+        font-size: 1.9rem;
+        font-weight: 600;
+        color: white;
+        width: 628px;
+        margin-right: 4rem;
+    }
+
+    .almost-img-div {
+        width: 250px;
+        /* height: 500px; */
+        border-radius: 50%;
+    }
+
+    .face-class {
+        position: relative;
+    }
+
+    .face-class-img {
+        position: absolute;
+
+    }
+
+    .face-class-apostrophe {
+        width: 50px;
+        height: 50px;
+        background-color: #fcb900;
+        padding: 10px 0 0 10px;
+        border-radius: 5%;
+        position: absolute;
+        left: 200px;
+    }
+
+
+
+
+
+    /*--------------------------------------SIXTH SECTION FIRST PAGE SECTION---------------------------------------------- */
+
+    #fifth-page {
+        margin: auto;
+        margin-top: 3rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    .fifth-heading {
+        color: #05123E;
+        padding: 0.8rem;
+    }
+
+    .input-finds-div {
+        display: flex;
+        margin-top: 3rem;
+    }
+
+    .sub-class-input {
+        position: relative;
+        flex: 1.5;
+    }
+
+    .input-class {
+        width: 870px;
+        max-width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        padding: 0 4rem;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 40px;
+        top: 10px;
+
+    }
+
+    .fash-search {
+        color: black;
+    }
+
+    .enter-key-icon {
+        position: absolute;
+        right: 40px;
+        top: 1px;
+    }
+
+    .find-jobs-div {
+        display: flex;
+        flex: 1;
+        gap: 2rem;
+        padding-left: 2rem;
+    }
+
+    .jobs-buttons-one {
+        width: 125px;
+        height: 54px;
+        border-radius: 30px;
+        background-color: white;
+        color: #2346C1;
+        border: 3px solid #2346C1;
+    }
+
+    .jobs-buttons {
+        width: 215px;
+        height: 54px;
+        border-radius: 30px;
+        background-color: white;
+        color: #2346C1;
+        border: 3px solid #2346C1;
+    }
+
+    .advanced-div-one {
+        position: relative;
+    }
+
+    .advanced-logo-one {
+        position: absolute;
+        top: 15px;
+        left: 12px;
+        color: #2346C1;
+
+    }
+
+    .advanced-div {
+        position: relative;
+    }
+
+    .advanced-btn {
+        position: absolute;
+    }
+
+    .advanced-logo {
+        position: absolute;
+        top: 16px;
+        left: 18px;
+        color: #2346C1;
+
+    }
+
+    /* .advanced-div:hover{
+        color: white;
+    } */
+
+    .jobs-buttons-one:hover {
+        background-color: #2346C1;
+        color: white;
+    }
+
+    .jobs-buttons:hover {
+        background-color: #2346C1;
+        color: white;
+    }
+
+    .button-span {
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .explore-button-two {
+        margin-top: 6rem
+    }
+
+    /******************* FINAL SECTION OF THE PAGE ************************/
+    #final-page {
+        background-image: url("https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg");
+        padding-top: 8rem;
+    }
+
+    .backup-logo {
+        display: none;
+    }
+
+    #footer-section {
+        display: grid;
+        grid-template-columns: repeat(4, 250.5px);
+        gap: 30px;
+        justify-content: center;
+        /* margin-left: 14rem; */
+        margin-bottom: 5rem;
+        ;
+    }
+
+    .footer-first {
+        color: white;
+    }
+
+    .ref-class {
+        color: white;
+    }
+
+    .ref-class:hover {
+        color: #ff1493;
+    }
+
+    .footer-first-para {
+        margin-top: -40px;
+    }
+
+    .connect-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 60px);
+        gap: 3px;
+    }
+
+    .connect-a-footer {
+        width: 50px;
+        height: 50px;
+        padding: 10px 15px;
+        border-radius: 5%;
+        background-color: #0D2162;
+    }
+
+    #footer-second {
+        background-color: #05123E;
+        padding-left: 14rem;
+        display: flex;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: white;
+        gap: 560px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1299px) {
+
+    /* --------------MEDIUM DEVICES-------------- */
+    .finixio-nav {
+        position: relative;
+    }
+
+    .finixio-nav-item {
+        position: absolute;
+        right: 2rem;
+    }
+
+    .finixio-nav {
+        position: fixed;
+        z-index: 10;
+    }
+
+    #finixio-index-one {
+        z-index: 5;
+    }
+
+    /*---------------------------------------------- SECOND SECTION FIRST PAGE SECTION--------------------------------------- */
+    #first-page {
+        padding-left: 2rem;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+        display: flex;
+        background-image: url(https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg);
+        color: white;
+    }
+
+    p {
+        line-height: 2;
+        margin-top: -1rem;
+    }
+
+    .first-page-heading {
+        font-size: 2.7rem;
+        font-family: sans-serif;
+        font-weight: 600;
+        width: 398px;
+    }
+
+    .first-page-para {
+        width: 380px;
+        margin-top: 2rem;
+    }
+
+    .explore-button {
+        margin-top: 1.5rem;
+        height: 4rem;
+        width: 10rem;
+        border-radius: 30px;
+        font-size: 1.2rem;
+
+        color: white;
+        background-color: #ff1493;
+    }
+
+    .work-together-img-div {
+        margin: 0 15rem;
+    }
+
+    .world-img-div {
+        position: relative;
+    }
+
+    .work-together-globe {
+        width: 260px;
+        filter: invert(100%) hue-rotate(200deg) saturate(190%) brightness(140%);
+    }
+
+    .img-one-div {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 28px;
+        left: 48px;
+
+    }
+
+    .img-one {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin: 2px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-two-div {
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 20px;
+        left: 150px;
+    }
+
+    .img-two {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin: 2.5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-three-div {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 30px;
+        bottom: 60px;
+    }
+
+    .img-four {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin: 2.5px;
+    }
+
+    .img-four-div {
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 60px;
+        left: 100px;
+    }
+
+    .img-five-div {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 170px;
+        bottom: 60px;
+    }
+
+    .img-six-div {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+
+        position: absolute;
+        bottom: 7px;
+        left: 120px;
+    }
+
+    /*--------------------------------------THIRD SECTION FIRST PAGE SECTION---------------------------------------------- */
+    #second-page {
+        padding-left: 2rem;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
+        background-color: white;
+    }
+
+    .why-work-main-div {
+        display: flex;
+    }
+
+    .why-work-img {
+        width: 318px;
+        height: 320px;
+        padding: 0 0.3rem;
+        margin-right: 1.8rem;
+    }
+
+    .why-work-div {
+        width: 621px;
+        justify-items: right;
+    }
+
+    .why-work-heading {
+        width: 542px;
+    }
+
+    .why-work-para {
+        width: 542px;
+        padding-right: 1rem;
+        margin-bottom: 15px;
+
+    }
+
+    .blue-color {
+        color: #49557B;
+    }
+
+    .para-one {
+        margin-bottom: -3px;
+        font-weight: 500;
+    }
+
+    .heading-one {
+        padding-right: 230px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        align-items: center;
+        color: #05123E;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .why-work-img-two {
+        width: 348px;
+        height: 230px;
+        padding: 0 0.3rem;
+        margin-right: 1.8rem;
+    }
+
+    .why-work-img-three {
+        width: 338px;
+        height: 447px;
+        padding: 0 0.3rem;
+        margin-right: 1.8rem;
+    }
+
+
+    /*--------------------------------------FOURTH SECTION FIRST PAGE SECTION---------------------------------------------- */
+    #third-page {
+        margin: auto;
+        margin-top: 3rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    .what-we-main-div {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #05123E;
+    }
+
+    .what-we-heading {
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .working-class {
+        display: grid;
+        grid-template-columns: repeat(2, 430.5px);
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .working-class-heading {
+        color: #05123E;
+        font-weight: 480;
+        margin: 1.5rem 0.5rem 1rem 0.5rem;
+        font-size: 1.6rem;
+    }
+
+    .h-one {
+        margin-top: 7px;
+    }
+
+    .h-two {
+        margin-top: 20px;
+    }
+
+    .working-class-para {
+        margin: 0 0.5rem 0.5rem 0.5rem;
+        padding: 0 3px;
+        color: #49557B;
+    }
+
+
+    /*--------------------------------------FIFTH SECTION FIRST PAGE SECTION---------------------------------------------- */
+    #fourth-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg);
+        padding: 7rem 0;
+    }
+
+    .fourth-page-div {
+        margin: 2rem;
+
+    }
+
+    .almost-para-img-div {
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    .apostrophe-class {
+        filter: invert(87%) sepia(100%) saturate(500%) hue-rotate(10deg) brightness(500%);
+        width: 3.3rem;
+    }
+
+    .almost-para-div {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: white;
+        width: 628px;
+        margin-right: 4rem;
+    }
+
+    .almost-img-div {
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    .face-class {
+        position: relative;
+    }
+
+    .face-class-img {
+        position: absolute;
+
+    }
+
+    .face-class-apostrophe {
+        width: 50px;
+        height: 50px;
+        background-color: #fcb900;
+        padding: 10px 0 0 10px;
+        border-radius: 5%;
+        position: absolute;
+        left: 200px;
+    }
+
+
+
+
+
+    /*-----------------------------------SIXTH SECTION FIRST PAGE SECTION---------------------------------------------- */
+    #fifth-page {
+        margin: auto;
+        margin-left: 2rem;
+        margin-top: 7rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+
+    .fifth-heading {
+        color: #05123E;
+        padding: 0.8rem;
+    }
+
+    .input-finds-div {
+        margin: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        gap: 30px;
+    }
+
+    .sub-class-input {
+        position: relative;
+        flex: 1.5;
+        margin-bottom: 2rem;
+    }
+
+    .input-class {
+        height: 50px;
+        width: 692px;
+        max-width: 100%;
+        border-radius: 5px;
+        border: 1px rgb(172, 172, 172) solid;
+        padding: 0 2rem;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+    .search-icon {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+
+    }
+
+    .fash-search {
+        color: black;
+    }
+
+    .enter-key-icon {
+        position: absolute;
+        right: 10px;
+        top: 1px;
+    }
+
+    .find-jobs-div {
+        display: flex;
+        flex: 1;
+        gap: 2rem;
+        padding-left: 5rem;
+    }
+
+    .jobs-buttons-one {
+        width: 125px;
+        height: 54px;
+        border-radius: 30px;
+        background-color: white;
+        color: #2346C1;
+        border: 3px solid #2346C1;
+    }
+
+    .jobs-buttons {
+        width: 215px;
+        height: 54px;
+        border-radius: 30px;
+        background-color: white;
+        color: #2346C1;
+        border: 3px solid #2346C1;
+    }
+
+    .advanced-div-one {
+        position: relative;
+    }
+
+    .advanced-logo-one {
+        position: absolute;
+        top: 15px;
+        left: 12px;
+        color: #2346C1;
+
+    }
+
+    .advanced-div {
+        position: relative;
+    }
+
+    .advanced-btn {
+        position: absolute;
+    }
+
+    .advanced-logo {
+        position: absolute;
+        top: 16px;
+        left: 18px;
+        color: #2346C1;
+
+    }
+
+    .jobs-buttons-one:hover {
+        background-color: #2346C1;
+        color: white;
+    }
+
+    .jobs-buttons:hover {
+        background-color: #2346C1;
+        color: white;
+    }
+
+    .button-span {
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .explore-button-two {
+        margin-top: 6rem
+    }
+
+    /******************* FINAL SECTION OF THE PAGE ************************/
+    #final-page {
+        background-image: url("https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg");
+        padding-top: 8rem;
+    }
+
+    .backup-logo {
+        display: none;
+    }
+
+    #footer-section {
+        display: grid;
+        grid-template-columns: repeat(4, 200px);
+        gap: 25px;
+        justify-content: center;
+        margin-bottom: 5rem;
+        ;
+    }
+
+    .footer-first {
+        color: white;
+    }
+
+    .ref-class {
+        color: white;
+    }
+
+    .ref-class:hover {
+        color: #ff1493;
+    }
+
+    .footer-first-para {
+        margin-top: -40px;
+    }
+
+    .connect-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 60px);
+        gap: 3px;
+    }
+
+    .connect-a-footer {
+        width: 50px;
+        height: 50px;
+        padding: 10px 15px;
+        border-radius: 5%;
+        background-color: #0D2162;
+    }
+
+    #footer-second {
+        background-color: #05123E;
+        padding-left: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        gap: 10px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        color: white;
+
+    }
+
+    .second-footer-div {
+        text-align: right;
+    }
+}

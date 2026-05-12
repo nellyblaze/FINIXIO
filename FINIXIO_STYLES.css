@@ -1,0 +1,1463 @@
+/*            A MUST HAVE                */
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+/* NAVIGATION PAGE */
+#finixio-navpage {
+    background-color: #071850;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    gap: 40%;
+    padding-right: 2rem;
+    width: 100%;
+    justify-content: center;
+    /* margin: -8px 0; */
+    padding-top: 1.5rem;
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 0.5rem;
+}
+
+.finixio-img {
+    padding-top: 5px;
+}
+
+.listed-nav {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 1.2rem;
+}
+
+.vertical {
+    flex-direction: column;
+    margin-left: -8rem;
+}
+
+.btn-decor {
+    text-decoration: none;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.join-btn {
+    border: 1px solid white;
+    padding: 0.8rem 1.3rem;
+    border-radius: 30px;
+    /* margin-top: 4rem; */
+}
+
+.join-btn:hover {
+    color: #E60D64;
+    border: 1px solid #E60D64;
+}
+
+.fa-3x {
+    color: white;
+}
+
+@media (min-width: 1024px) {
+    /*                                 FIRST PAGE                        */
+
+    #first-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/09/home-banner-v1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 13rem 0 15.5rem 0;
+        /* margin: 0 -8px 0 -8px; */
+        text-align: center;
+
+    }
+
+    .first-page-div {
+        color: white;
+        font-family: Nunito, sans-serif;
+    }
+
+    .leading-heading {
+        font-size: 3.5rem;
+
+    }
+
+    .leading-para {
+        color: #AEB4C6;
+        margin-bottom: 4rem;
+    }
+
+    .explore-roles {
+        text-decoration: none;
+
+    }
+
+    .leading-btn {
+        color: white;
+        display: inline-block;
+        width: 15rem;
+        height: 1rem;
+        background-color: #FF0D64;
+        border: 1px solid #FF0D64;
+        padding: 1.4rem 1.4rem;
+        border-radius: 40px;
+        font-size: 19px;
+    }
+
+    .leading-btn:hover {
+        background-color: white;
+        color: #FF0D64;
+    }
+
+    #first-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/09/home-banner-v1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10rem 0 5rem 0;
+        text-align: center;
+
+    }
+
+    .first-page-div {
+        color: white;
+        font-family: Nunito, sans-serif;
+    }
+
+    .leading-heading {
+        font-size: 3.5rem;
+
+    }
+
+    .leading-para {
+        color: #AEB4C6;
+        margin-bottom: 4rem;
+    }
+
+    .explore-roles {
+        text-decoration: none;
+
+    }
+
+    .leading-btn {
+        color: white;
+        display: inline-block;
+        width: 15rem;
+        height: 1rem;
+        background-color: #FF0D64;
+        border: 1px solid #FF0D64;
+        padding: 1.4rem 1.4rem;
+        border-radius: 40px;
+        font-size: 19px;
+    }
+
+    .leading-btn:hover {
+        background-color: white;
+        color: #FF0D64;
+    }
+
+    /*                            SECOND PAGE                          */
+
+    #second-page {
+        font-family: "Nunito", sans-serif;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        gap: 4%;
+    }
+
+    hr {
+        max-width: 100%;
+    }
+
+    .work-together-img-div {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        /* margin-left: -3rem */
+    }
+
+    .second-page-div {
+        color: black;
+    }
+
+    .world-img-div {
+        width: 30%;
+        position: relative;
+    }
+
+    .second-page-div {
+        width: 30%;
+    }
+
+    /* .second-second {
+    width: 450px;
+} */
+
+    .work-together-globe {
+        width: 600px;
+    }
+
+    .img-one-div {
+        background-color: white;
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 48px;
+        left: 108px;
+
+    }
+
+    .img-one {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-two-div {
+        background-color: white;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 40px;
+        left: 340px;
+    }
+
+    .img-two {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-three-div {
+        background-color: white;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 80px;
+        bottom: 140px;
+    }
+
+    .img-three {
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-four {
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    .img-four-div {
+        background-color: white;
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 150px;
+        left: 220px;
+    }
+
+    .img-five-div {
+        background-color: white;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 400px;
+        bottom: 130px;
+    }
+
+    .img-six-div {
+        background-color: white;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+
+        position: absolute;
+        bottom: 15px;
+        left: 260px;
+    }
+
+    .second-page-para {
+        color: #546487;
+    }
+
+    .second-page-heading {
+        line-height: 1.4;
+        font-size: 2.2rem;
+        color: #05123E;
+    }
+
+    .second-page-para {
+        line-height: 1.8;
+        margin-bottom: 1rem;
+        font-size: 18px;
+    }
+
+    .second-anchor {
+        text-decoration: none;
+    }
+
+    .explore-button {
+        margin-top: 2rem;
+        text-align: center;
+        color: #2346C1;
+        display: inline-block;
+        width: 12rem;
+        height: 1rem;
+        background-color: white;
+        border: 2px solid #2346C1;
+        padding: 1rem 1rem 1.2rem;
+        border-radius: 40px;
+        font-size: 18px;
+    }
+
+
+    /*                           THIRD SECTION                           */
+    #third-page {
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .image-one {
+        object-fit: cover;
+        width: 259px;
+        height: 250px;
+    }
+
+    /* 253157 */
+    .third-page-para {
+        color: #3046C6;
+    }
+
+    .third-page-div {
+        margin-bottom: 3rem;
+        justify-content: center;
+        display: flex;
+        gap: 2rem;
+        text-align: left;
+    }
+
+    .image-one-div {
+        width: 246px;
+    }
+
+    .image-two-div {
+        width: 246px;
+    }
+
+    .anchor-para1 {
+        color: #253157;
+    }
+
+    .anchor-para2 {
+        line-height: 1.5;
+        color: #253157;
+        font-size: 17px;
+    }
+
+    .show-more {
+        font-size: 18px;
+        border: 2px solid #2346C1;
+        border-radius: 40px;
+        width: 6rem;
+        margin: auto;
+        padding: 1rem;
+        background-color: white;
+        color: #2346C1;
+    }
+
+    .show-more:hover {
+        background-color: #2346C1;
+        color: white;
+    }
+
+    .circlus {
+        display: none;
+    }
+
+    /*             CAROUSEL SECTION                 */
+
+
+
+
+    /*                             FOURTH SECTION                     */
+    #fourth-page {
+        background-color: #F5F8FF;
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+        padding-top: 3rem;
+        margin-top: 4rem;
+        /* margin-left: -8px;
+        margin-right: -8px; */
+        padding-bottom: 4rem;
+    }
+
+    .general-div {
+        width: 75%;
+        margin: auto;
+    }
+
+    #fourth-page .second-page-heading {
+        padding: 1rem;
+    }
+
+    .fourth-page-div {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 30%);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .listed-list {
+        line-height: 2;
+        color: #253157;
+        /* margin-bottom: 2rem; */
+        font-size: 18px;
+        text-align: left;
+        list-style: url("https://finixio.com/wp-content/themes/twenty-twenty-child/assets/images/green-check-icon.svg");
+        list-style-position: inside;
+        /* list-style-position: ; */
+    }
+
+    .help-span {
+        margin-left: 2rem;
+    }
+
+    .explore-our {
+        color: white;
+        display: inline-block;
+        width: 9rem;
+        height: 2rem;
+        background-color: #2346C1;
+        border: 1px solid #2346C1;
+        padding: 0.2rem 1.2rem 1.2rem;
+        border-radius: 40px;
+        font-size: 19px;
+    }
+
+    .explore-our:hover {
+        background-color: white;
+        color: #2346C1;
+    }
+
+
+
+    /*                             FINAL PAGE                           */
+    #final-page {
+        background-image: url("https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg");
+        padding-top: 8rem;
+        margin: 0 0 -8px 0;
+        font-family: "Nunito", sans-serif;
+    }
+
+
+    #footer-section {
+        width: 75%;
+        /* margin: auto; */
+        /* margin-left: -1rem; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        justify-self: center;
+        margin-bottom: 5rem;
+        ;
+    }
+
+    .footer-first {
+        color: white;
+    }
+
+    .footer-logo-icon {
+        margin-top: 1rem;
+    }
+
+    .footer-para {
+        line-height: 1.7;
+    }
+
+    .ref-class {
+        color: white;
+    }
+
+    .ref-class:hover {
+        color: #ff1493;
+    }
+
+    .connect-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 60px);
+        gap: 6px;
+    }
+
+    .connect-a-footer {
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 5px;
+        background-color: #0D2162;
+    }
+
+    .connect-a-footer:hover {
+
+        box-shadow: 0 2px 2px 0 #AEB4C6;
+    }
+
+    #footer-second {
+        background-color: #05123E;
+        /* padding-left: 14rem; */
+
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: white;
+    }
+
+    .footer-second-second {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        gap: 30%;
+
+    }
+}
+
+@media (max-width: 800px) {
+    /*                                 FIRST PAGE                        */
+
+    #first-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/09/home-banner-v1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 8rem 0 8rem 0;
+        /* margin: 0 -8px 0 -8px; */
+        text-align: center;
+
+    }
+
+    .first-page-div {
+        color: white;
+        font-family: Nunito, sans-serif;
+    }
+
+    .leading-heading {
+        font-size: 2rem;
+        line-height: 1.5;
+        margin-bottom: 1.6rem;
+    }
+
+    .leading-para {
+        color: #AEB4C6;
+        margin-bottom: 4rem;
+        width: 90%;
+        margin: auto;
+        line-height: 2;
+    }
+
+    .explore-roles {
+        text-decoration: none;
+
+    }
+
+    .leading-btn {
+        color: white;
+        display: inline-block;
+        width: 15rem;
+        height: 1rem;
+        background-color: #FF0D64;
+        border: 1px solid #FF0D64;
+        padding: 1.4rem 1.4rem;
+        border-radius: 40px;
+        font-size: 19px;
+        margin-top: 2rem;
+    }
+
+    .leading-btn:hover {
+        background-color: white;
+        color: #FF0D64;
+    }
+
+    /*                            SECOND PAGE                          */
+
+    #second-page {
+        font-family: "Nunito", sans-serif;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        text-align: left;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        gap: 2rem;
+    }
+
+    .exclusive {
+        text-align: center;
+    }
+
+    hr {
+        max-width: 100%;
+    }
+
+    .work-together-img-div {
+        display: none;
+        margin: 4rem 0;
+        order: 2;
+    }
+
+    .second-page-div {
+        color: black;
+        order: 1;
+    }
+
+    .world-img-div {
+        position: relative;
+    }
+
+    .work-together-globe {
+        width: 100%;
+    }
+
+    .img-one-div {
+        background-color: white;
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 48px;
+        left: 58px;
+
+    }
+
+    .img-one {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-two-div {
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 20px;
+        left: 270px;
+    }
+
+    .img-two {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-three-div {
+        background-color: white;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 40px;
+        bottom: 90px;
+    }
+
+    .img-three {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-four {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    .img-four-div {
+        background-color: white;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 90px;
+        left: 140px;
+    }
+
+    .img-five-div {
+        background-color: white;
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 400px;
+        bottom: 130px;
+    }
+
+    .img-six-div {
+        background-color: white;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+
+        position: absolute;
+        bottom: 15px;
+        left: 260px;
+    }
+
+    .second-page-para {
+        color: #546487;
+        margin-bottom: 1rem;
+
+    }
+
+    .second-page-heading {
+        line-height: 1.4;
+        font-size: 1.8rem;
+        color: #05123E;
+        margin-bottom: 1rem;
+    }
+
+    .second-page-para {
+        /* line-height: 3; */
+        font-size: 1rem;
+    }
+
+    .second-page-div-para {
+        text-align: left;
+        margin: auto;
+        width: 90%;
+        line-height: 1.7;
+    }
+
+    .second-anchor {
+        text-decoration: none;
+    }
+
+    .explore-button {
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        color: #2346C1;
+        display: inline-block;
+        width: 12rem;
+        height: 1rem;
+        background-color: white;
+        border: 2px solid #2346C1;
+        padding: 1rem 1rem 1.2rem;
+        border-radius: 40px;
+        font-size: 18px;
+    }
+
+    /*                           THIRD SECTION                           */
+    #third-page {
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        margin-top: 4rem;
+        overflow: hidden;
+    }
+
+    .image-one {
+        object-fit: cover;
+        width: 90%;
+        /* width: 259px; */
+        /* height: 250px; */
+    }
+
+    /* 253157 */
+    .third-page-para {
+        color: #3046C6;
+    }
+
+    .third-page-div {
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        overflow: hidden;
+        width: 210%;
+        transition: transform 0.5s ease;
+    }
+
+    .third-page-div1 {
+        margin: auto;
+    }
+
+    .image-one-div {
+        width: 90%;
+    }
+
+    .image-two-div {
+        width: 90%;
+    }
+
+    .anchor-para1 {
+        color: #253157;
+    }
+
+    .anchor-para2 {
+        line-height: 1.5;
+        color: #253157;
+        font-size: 17px;
+    }
+
+    .show-more {
+        font-size: 18px;
+        border: 2px solid #2346C1;
+        border-radius: 40px;
+        width: 6rem;
+        margin: auto;
+        padding: 1rem;
+        background-color: white;
+        color: #2346C1;
+    }
+
+    .show-more:hover {
+        background-color: #2346C1;
+        color: white;
+    }
+
+    i {
+        margin-bottom: 3.5rem;
+    }
+
+    .color-change {
+        color: blue;
+    }
+
+    /* Carousel container */
+    /* Each slide */
+    .slides {
+        margin: auto;
+    }
+
+    /* Circle navigation buttons */
+    .circle-one,
+    .circle-two {
+        cursor: pointer;
+        font-size: 20px;
+        color: #3046C6;
+        margin: 1rem 10px;
+    }
+
+
+    /*                             FOURTH SECTION                     */
+    #fourth-page {
+        background-color: #F5F8FF;
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+        padding-top: 3rem;
+        margin-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    #fourth-page .second-page-heading {
+        width: 95%;
+        margin: auto;
+    }
+
+    br {
+        display: none;
+    }
+
+    .fourth-page-div {
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .listed-list.a {
+        text-align: center;
+
+    }
+
+    /*.fourth-page-div {
+        display: flex;
+        gap: 3rem;
+        justify-content: center;
+    }*/
+
+    /* .fourth-page-div1 {
+        width: 297px;
+    } */
+
+    .listed-list {
+        color: #253157;
+        /* margin-bottom: 2.5rem; */
+        font-size: 18px;
+        /* text-align: left; */
+        list-style: url("https://finixio.com/wp-content/themes/twenty-twenty-child/assets/images/green-check-icon.svg");
+        width: 90%;
+        margin: 2.5rem auto;
+        list-style-position: inside;
+    }
+
+    .explore-our {
+        color: white;
+        display: inline-block;
+        width: 9rem;
+        height: 2rem;
+        background-color: #2346C1;
+        border: 1px solid #2346C1;
+        padding: 0.2rem 1.2rem 1.2rem;
+        border-radius: 40px;
+        font-size: 19px;
+    }
+
+    .explore-our:hover {
+        background-color: white;
+        color: #2346C1;
+    }
+
+
+    /*                             FINAL PAGE                           */
+    #final-page {
+        background-image: url("https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg");
+        padding-top: 8rem;
+        margin: 0 0 -8px 0;
+        font-family: "Nunito", sans-serif;
+    }
+
+
+    #footer-section {
+        width: 85%;
+        margin: auto;
+        /* margin-left: -1rem; */
+        /* display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        justify-self: center; */
+        margin-bottom: 5rem;
+        ;
+    }
+
+    .footer-first {
+        color: white;
+    }
+
+    .emergency-spacing {
+        margin-bottom: 2rem;
+    }
+
+    .footer-logo-icon {
+        margin-top: 1rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .footer-para {
+        margin: 1.5rem 0;
+        line-height: 1.7;
+    }
+
+    .ref-class {
+        color: white;
+
+    }
+
+    .ref-class:hover {
+        color: #ff1493;
+    }
+
+    .connect-footer {
+        display: grid;
+        grid-template-columns: repeat(4, 50px);
+        gap: 6px;
+    }
+
+    .connect-a-footer {
+        text-align: center;
+        padding: 9px 0;
+        border-radius: 5px;
+        background-color: #0D2162;
+    }
+
+    .connect-a-footer:hover {
+
+        box-shadow: 0 2px 2px 0 #AEB4C6;
+    }
+
+    #footer-second {
+
+        background-color: #05123E;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: white;
+
+    }
+
+    .footer-second-second {
+        width: 90%;
+        margin: auto;
+        line-height: 2rem;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1023px) {
+    #first-page {
+        background-image: url(https://finixio.com/wp-content/uploads/2021/09/home-banner-v1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 12rem 0;
+        /* margin: 0 -8px 0 -8px; */
+        text-align: center;
+
+    }
+
+    .first-page-div {
+        color: white;
+        font-family: Nunito, sans-serif;
+    }
+
+    .leading-heading {
+        font-size: 2.8rem;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .leading-para {
+        color: #AEB4C6;
+        margin-bottom: 4rem;
+    }
+
+    .explore-roles {
+        text-decoration: none;
+
+    }
+
+    .leading-btn {
+        color: white;
+        display: inline-block;
+        width: 15rem;
+        height: 1rem;
+        background-color: #FF0D64;
+        border: 1px solid #FF0D64;
+        padding: 1.4rem 1.4rem;
+        border-radius: 40px;
+        font-size: 19px;
+    }
+
+    .leading-btn:hover {
+        background-color: white;
+        color: #FF0D64;
+    }
+
+    /*                            SECOND PAGE                          */
+
+    #second-page {
+        font-family: "Nunito", sans-serif;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        gap: 2rem;
+    }
+
+    hr {
+        max-width: 100%;
+    }
+
+    .work-together-img-div {
+        margin: 9rem 0 0 0;
+        width: 50%;
+    }
+
+    .second-page-div {
+        color: black;
+        width: 50%;
+    }
+
+    .world-img-div {
+        position: relative;
+    }
+
+    .second-second {
+        width: 90%;
+        margin: auto;
+    }
+
+    .work-together-globe {
+        width: 400px;
+    }
+
+    .img-one-div {
+        background-color: white;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 48px;
+        left: 78px;
+
+    }
+
+    .img-one {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-two-div {
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 40px;
+        left: 280px;
+    }
+
+    .img-two {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-three-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 60px;
+        bottom: 100px;
+    }
+
+    .img-three {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        margin: 5px;
+
+        /* Makes the corners round, resulting in a circle */
+    }
+
+    .img-four {
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    .img-four-div {
+        background-color: white;
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+
+        position: absolute;
+        top: 120px;
+        left: 170px;
+    }
+
+    .img-five-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        left: 320px;
+        bottom: 100px;
+    }
+
+    .img-six-div {
+        background-color: white;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+
+        position: absolute;
+        bottom: 1px;
+        left: 200px;
+    }
+
+    .second-page-para {
+        color: #546487;
+    }
+
+    .second-page-heading {
+        line-height: 1.4;
+        font-size: 2.0rem;
+        margin: 1rem 0;
+        color: #05123E;
+    }
+
+    .second-page-para {
+        line-height: 1.8;
+        margin-bottom: 1.5rem;
+    }
+
+    .second-anchor {
+        text-decoration: none;
+    }
+
+    .explore-button {
+        text-align: center;
+        color: #2346C1;
+        display: inline-block;
+        width: 12rem;
+        height: 1rem;
+        background-color: white;
+        border: 2px solid #2346C1;
+        padding: 1rem 1rem 1.2rem;
+        border-radius: 40px;
+        font-size: 18px;
+    }
+
+    /*                           THIRD SECTION                           */
+    #third-page {
+        font-family: "Nunito", sans-serif;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .image-one {
+        object-fit: cover;
+        width: 259px;
+        height: 250px;
+    }
+
+    /* 253157 */
+    .third-page-para {
+        color: #3046C6;
+    }
+
+    .third-page-div {
+        margin-bottom: 3rem;
+        justify-content: center;
+        display: flex;
+        gap: 2rem;
+        text-align: left;
+    }
+
+    .image-one-div {
+        width: 246px;
+    }
+
+    .image-two-div {
+        width: 246px;
+    }
+
+    .anchor-para1 {
+        color: #253157;
+    }
+
+    .anchor-para2 {
+        line-height: 1.5;
+        color: #253157;
+        font-size: 17px;
+    }
+
+    .show-more {
+        font-size: 18px;
+        border: 2px solid #2346C1;
+        border-radius: 40px;
+        width: 6rem;
+        margin: auto;
+        padding: 1rem;
+        background-color: white;
+        color: #2346C1;
+    }
+
+    .show-more:hover {
+        background-color: #2346C1;
+        color: white;
+    }
+
+    .circlus {
+        display: none;
+    }
+
+    /*             CAROUSEL SECTION                 */
+
+
+
+
+    /*                             FOURTH SECTION                     */
+    #fourth-page {
+        background-color: #F5F8FF;
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+        padding-top: 3rem;
+        margin-top: 4rem;
+        /* margin-left: -8px;
+        margin-right: -8px; */
+        padding-bottom: 4rem;
+    }
+
+    .general-div {
+        width: 75%;
+        margin: auto;
+    }
+
+    #fourth-page .second-page-heading {
+        padding: 1rem;
+    }
+
+    .fourth-page-div {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 30%);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .listed-list {
+        line-height: 2;
+        color: #253157;
+        /* margin-bottom: 2rem; */
+        font-size: 18px;
+        text-align: left;
+        list-style: url("https://finixio.com/wp-content/themes/twenty-twenty-child/assets/images/green-check-icon.svg");
+        list-style-position: inside;
+        /* list-style-position: ; */
+    }
+
+    .help-span {
+        margin-left: 2rem;
+    }
+
+    .explore-our {
+        color: white;
+        display: inline-block;
+        width: 9rem;
+        height: 2rem;
+        background-color: #2346C1;
+        border: 1px solid #2346C1;
+        padding: 0.2rem 1.2rem 1.2rem;
+        border-radius: 40px;
+        font-size: 19px;
+    }
+
+    .explore-our:hover {
+        background-color: white;
+        color: #2346C1;
+    }
+
+
+
+    /*                             FINAL PAGE                           */
+    #final-page {
+        background-image: url("https://finixio.com/wp-content/uploads/2021/03/testimonials-bg.jpg");
+        padding-top: 8rem;
+        margin: 0 0 -8px 0;
+        font-family: "Nunito", sans-serif;
+    }
+
+
+    #footer-section {
+        width: 95%;
+        /* margin: auto; */
+        /* margin-left: -1rem; */
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr 1fr 1fr;
+        gap: 30px;
+        justify-self: center;
+        margin-bottom: 5rem;
+        ;
+    }
+
+    .footer-first {
+        color: white;
+    }
+
+    .footer-logo-icon {
+        margin-top: 1rem;
+    }
+
+    .footer-para {
+        line-height: 1.7;
+    }
+
+    .ref-class {
+        color: white;
+    }
+
+    .ref-class:hover {
+        color: #ff1493;
+    }
+
+    .connect-footer {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(4, 40px);
+        gap: 6px;
+    }
+
+    .connect-a-footer {
+        text-align: center;
+        padding: 12px 0;
+        border-radius: 5px;
+        background-color: #0D2162;
+    }
+
+    .connect-a-footer:hover {
+
+        box-shadow: 0 2px 2px 0 #AEB4C6;
+    }
+
+    #footer-second {
+        background-color: #05123E;
+        /* padding-left: 14rem; */
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        color: white;
+    }
+
+    .footer-second-second {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        gap: 10%;
+
+    }
+}
